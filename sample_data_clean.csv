@@ -1,0 +1,35 @@
+pincode,date,state,district,age_18_greater,bio_age_17_,demo_age_17_
+110001,2025-01-01,Delhi,Central Delhi,1250,450,430
+110002,2025-01-01,Delhi,Central Delhi,980,320,310
+110003,2025-01-01,Delhi,East Delhi,1120,390,375
+400001,2025-01-01,Maharashtra,Mumbai,1580,520,505
+400002,2025-01-01,Maharashtra,Mumbai,1340,445,430
+400003,2025-01-01,Maharashtra,Mumbai City,1460,485,470
+560001,2025-01-01,Karnataka,Bangalore Urban,1690,560,545
+560002,2025-01-01,Karnataka,Bangalore Urban,1520,505,490
+560003,2025-01-01,Karnataka,Bangalore Urban,1380,460,445
+201001,2025-01-01,Uttar Pradesh,Ghaziabad,1210,400,385
+201002,2025-01-01,Uttar Pradesh,Ghaziabad,1090,360,350
+380001,2025-01-01,Gujarat,Ahmedabad,1450,480,465
+380002,2025-01-01,Gujarat,Ahmedabad,1330,440,425
+600001,2025-01-01,Tamil Nadu,Chennai,1580,525,510
+600002,2025-01-01,Tamil Nadu,Chennai,1420,470,455
+700001,2025-01-01,West Bengal,Kolkata,1350,450,435
+700002,2025-01-01,West Bengal,Kolkata,1180,395,380
+110001,2025-02-01,Delhi,Central Delhi,1280,460,445
+110002,2025-02-01,Delhi,Central Delhi,1010,330,320
+110003,2025-02-01,Delhi,East Delhi,1150,400,385
+400001,2025-02-01,Maharashtra,Mumbai,1620,535,520
+400002,2025-02-01,Maharashtra,Mumbai,1370,455,440
+400003,2025-02-01,Maharashtra,Mumbai City,1490,495,480
+560001,2025-02-01,Karnataka,Bangalore Urban,1720,575,560
+560002,2025-02-01,Karnataka,Bangalore Urban,1550,515,500
+560003,2025-02-01,Karnataka,Bangalore Urban,1410,470,455
+201001,2025-02-01,Uttar Pradesh,Ghaziabad,1240,410,395
+201002,2025-02-01,Uttar Pradesh,Ghaziabad,1120,370,360
+380001,2025-02-01,Gujarat,Ahmedabad,1480,490,475
+380002,2025-02-01,Gujarat,Ahmedabad,1360,450,435
+600001,2025-02-01,Tamil Nadu,Chennai,1610,535,520
+600002,2025-02-01,Tamil Nadu,Chennai,1450,480,465
+700001,2025-02-01,West Bengal,Kolkata,1380,460,445
+700002,2025-02-01,West Bengal,Kolkata,1210,405,390
