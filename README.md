@@ -1,182 +1,45 @@
-# 🛡️ Aadhaar-Shield: Forensic Integrity System
+# Aadhar Shield
 
-> **Proactive Fraud Detection for UIDAI 2026 - A Forensic Watchdog for India's Digital Identity**
+## Overview
+Aadhar Shield is a dedicated project aimed at providing robust solutions for secure management and verification of Aadhar data. This project ensures the integrity, security, and accessibility of sensitive information, streamlining processes for both users and administrators.
 
-![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
-![Status](https://img.shields.io/badge/Status-Demo%20Ready-success.svg)
+## Features
+- **Data Security:** Implements advanced encryption techniques to protect user data.
+- **User Verification:** Provides a seamless and secure method for verifying Aadhar numbers.
+- **User-Friendly Interface:** Intuitive design that caters to technical and non-technical users alike.
+- **Real-Time Processing:** Instant processing of verification requests.
 
----
-
-## 🎯 Project Vision
-
-Aadhaar-Shield provides UIDAI with a **proactive forensic audit layer** that detects systemic anomalies, operator gaming, and regional fraud hotspots using advanced statistical methods and machine learning—without accessing any private citizen data.
-
-## 🏆 The Winning Pitch
-
-*"We have built Aadhaar-Shield, a forensic watchdog for the UIDAI ecosystem. By applying the same statistical laws used by the IRS and the World Bank, we can identify suspicious operator behavior and data integrity breaches at the Pincode level—without ever needing access to private citizen data."*
-
-## 🚀 Key Features
-
-### 1. **Three-Pillar Detection System**
-- **Pillar A: Statistical Integrity (Benford's Law)** - Detects fabricated counts
-- **Pillar B: Temporal Velocity (Z-Score Analysis)** - Flags non-organic spikes  
-- **Pillar C: Demographic Skew (Ratio Test)** - Identifies operator bypass
-
-### 2. **Machine Learning Layer**
-- Unsupervised Anomaly Detection using Isolation Forest
-- Risk Score (0-1) for every Pincode
-- Auto-flagging of suspicious patterns
-
-### 3. **Interactive Dashboard**
-- Real-time Forensic Heatmap
-- Geographic risk visualization
-- Drill-down analytics
-- PDF Report Export
-
-### 4. **Business Impact**
-| Component | Value Proposition |
-|-----------|------------------|
-| **Cost Savings** | Reduces manual auditing by 80% |
-| **Citizen Trust** | Prevents middleman exploitation |
-| **Scalability** | Direct CIDR dashboard integration |
-| **Compliance** | Supports Jan 2026 verification rules |
-
----
-
-## 📊 Technology Stack
-
-```
-Core:           Python 3.11+
-Data:           Pandas, NumPy
-Forensics:      SciPy (Chi-Square, Z-Tests)
-ML:             Scikit-learn (Isolation Forest)
-Backend:        FastAPI
-Visualization:  Streamlit, Plotly
-```
-
----
-
-## 🔧 Installation & Setup
-
-### Prerequisites
-- Python 3.11 or higher
-- pip package manager
-
-### Quick Start
+## Installation
+To install Aadhar Shield, clone the repository and install the required dependencies:
 
 ```bash
-# 1. Clone/Navigate to project directory
-cd aadhaar_shield
-
-# 2. Install dependencies
-pip install -r requirements.txt
-
-# 3. Generate synthetic data (or use real API)
-python src/data_generator.py
-
-# 4. Run the full analysis pipeline
-python src/ingestion.py
-python src/forensics.py
-python src/anomaly_detection.py
-
-# 5. Launch the dashboard
-streamlit run src/app.py
+git clone https://github.com/srinath-manda/aadhar_shield.git
+cd aadhar_shield
+npm install
 ```
 
-The dashboard will open at `http://localhost:8501`
+## Usage
+Run the application using the following command:
 
----
-
-## 📁 Project Structure
-
-```
-aadhaar_shield/
-├── src/
-│   ├── data_generator.py      # Synthetic data with fraud injection
-│   ├── api_client.py          # Real API integration
-│   ├── ingestion.py           # Data loading & merging
-│   ├── forensics.py           # Three-pillar detection
-│   ├── anomaly_detection.py   # ML risk scoring
-│   └── app.py                 # Streamlit dashboard
-├── data/
-│   ├── enrolment_data.csv
-│   ├── demographic_data.csv
-│   ├── biometric_data.csv
-│   └── pincode_risk_scores.csv
-├── .env                       # API credentials
-├── requirements.txt
-└── README.md
+```bash
+npm start
 ```
 
----
+## Contributing
+We welcome contributions to this project! Please follow these steps:
+1. Fork the repository.
+2. Create a new branch for your feature: `git checkout -b feature/ANewFeature`.
+3. Make your changes.
+4. Commit your changes: `git commit -m 'Add a new feature'`.
+5. Push to the branch: `git push origin feature/ANewFeature`.
+6. Open a Pull Request.
 
-## 🎨 Dashboard Features
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-### Main View
-- **Forensic Heatmap**: Interactive map showing risk zones
-- **Top Offenders Table**: High-risk Pincodes
-- **Real-time Metrics**: Monitored zones, anomaly counts
+## Acknowledgments
+- Thanks to the contributors who made this project possible.
+- Inspiration from various open-source technologies and frameworks.
 
-### Deep Dive Analytics
-- Enrollment pattern analysis
-- Velocity deviation charts
-- Feature importance visualization
-- Time-series trends
-
-### Export & Reporting
-- PDF report generation
-- CSV data export
-- Shareable insights
-
----
-
-## 🧪 Validation Results
-
-Our system **successfully detected** all three injected fraud signatures:
-
-| Fraud Type | Pincode | Risk Score | Detection Method |
-|------------|---------|------------|-----------------|
-| Ghost Pincode (10x spike) | 993133 | **1.00** | Z-Score + ML |
-| Lazy Operator (Benford) | 941000 | **0.73** | Benford's Law |
-| Mobile Farmer (Ratio) | 991660 | **0.65** | Demographic Skew |
-
----
-
-## 🎤 Demo Script for Judges
-
-1. **Start with Impact**: "80% reduction in manual audits"
-2. **Show the Map**: Point to red zones
-3. **Drill Down**: Click on Ghost Pincode, show the spike
-4. **Explain Math**: "Same techniques as IRS fraud detection"
-5. **Privacy Angle**: "Zero access to personal data"
-6. **Scale Story**: "Built for 1.4 billion records"
-
----
-
-## 🔮 Future Enhancements
-
-- [ ] Real-time streaming data ingestion
-- [ ] Email/SMS alert system for critical anomalies
-- [ ] Integration with UIDAI CIDR system
-- [ ] Mobile app for field auditors
-- [ ] Explainable AI (SHAP values)
-
----
-
-## 👥 Team
-
-**Hackathon Project 2026**
-
----
-
-## 📄 License
-
-MIT License - Built for UIDAI Hackathon 2026
-
----
-
-## 🙏 Acknowledgments
-
-- UIDAI for providing the datasets
-- Open-source community for the tools
+## Contact
+For any inquiries or feedback, please reach out to us at [srinath.manda@example.com](mailto:srinath.manda@example.com).
