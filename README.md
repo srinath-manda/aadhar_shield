@@ -42,4 +42,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Inspiration from various open-source technologies and frameworks.
 
 ## Contact
-For any inquiries or feedback, please reach out to us at [srinath.manda@example.com](mailto:srinath.manda@example.com).
+For any inquiries or feedback, please reach out to us at [mandasrinath16@gmail.com](mailto:mandasrinath16@gmail.com).
